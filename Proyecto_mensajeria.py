@@ -18,7 +18,11 @@ except:
 while menuPrincipal !=0:
     if menuPrincipal == 1:
         #Registrar cuenta del usuario
-    
+        correo = input("Ingrese su correo electronico: ")
+        nComercio = input("Ingrese el nombre del comercio: ")
+        tComercio = int(input("Ingrese el numero telefonico del comercio: "))
+        nDueño =  input("Ingrese el nombre y apellidos del dueño del comercio: ")
+        uComercio = input("Ingrese la ubicacion del comercio: ")
     elif menuPrincipal == 2:
         #Registrar una factura electronica
 
@@ -28,3 +32,4 @@ while menuPrincipal !=0:
     else: 
         print ("Digita una opcion correcta.")
     menuPrincipal = int(input("Menu Principal: \n 1-Ingresar una edad. \n 2-Ver la estadistica. \n 0-Salir.\n"))
+
